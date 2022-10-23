@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="_css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="_css/form.css">
+
+    <title>Tudo sobre Google Glass</title>
+
+    <nav id="menu" class="flex-container">
+        <ul type="disc">
+            <h1 id="menu">menu principal</h1>
+            <li><a href="index.html" class="flex-item">Home</a></li>
+            <li><a href="specs.html" class="flex-item" >Especificações</a></li>
+            <li><a href="fotos.html" class="flex-item" >Fotos</a></li>
+            <li><a href="multimidia.html" class="flex-item" >Multimídia</a></li>
+            <li><a href="fale-conosco.html" class="flex-item" >Fale conosco</a></li>        </ul>
+    </nav>
+        <script>
+      function mudaFoto (foto) {
+                document.getElementById("icone")
+            }
+        </script>
+</head>
+<body>
+<div id="interface">
+    <header id="cabecalho">
+        <article id="header-noticia-principal">
+            <h1>Google Glass</h1>
+            <h2> Uma grande revolução está chegando</h2>
+            <h3 class="direita">by - Pablo Kennediy</h3>
+            <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+            <figure class="foto-legenda-logo-oculo">
+                <img src="_imagens/glass-oculos-preto-peq.png" alt="glass-oculos-preto-peq" id="icone-oculos">
+            </figure>
+        </article>
+</header>
+<section id="corpo-full">
+    <article id="noticia-principal">
+        <header>
+            <hgroup>
+        <h1>Formulário para fazer contato</h1>
+            </hgroup>
+        </header>
+        <form>
+            <fieldset id="usuario"><legend>Intentificação do Úsuário</legend>
+            <p><label for="cNome">Nome:</label>
+            <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome completo"></p>
+            <p><label for="cSenha">Senha:</label>
+            <input type="password" nome="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 Digitos"></p>
+            <p><label for="cMail">E-mail:</label>
+            <input type="email" nome="tMail" id="cMail" size="20" maxlength="40"></p>
+            <fieldset id="sexo"><legend>Sexo</legend>
+            <input type="radio" nome="tSexo" id="cMasc" checked> <label for="cMasc">Masculino</label>
+            <input type="radio" nome="tSexo" id="cFem"> <label for="cFem">Feminino</label>
+            </fieldset>
+                <p><label for="cNasc">Data de Nascimento:</label>
+                <input type="date" name="tNasc" id="cNasc"></p>
+        </fieldset>
+            <fieldset id="endereco"><legend>Endereço do Usuário</legend>
+            <p><label for="cRua">Lagradouro:</label>
+            <input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua, Av, Trav, ..."></p>
+            <p><label for="cNum">Número:</label>
+            <input type="number" name="tNum" id="cNum" min="0" max="999999"></p>
+        
+        <p><label for="cEst">Estado:</label>
+        <select name="tEst" id="cEst">
+            <optgroup label="Região Suldeste">
+            <option value="RJ">Rio de janeiro</option>
+            <option value="SP" selected>São Paulo</option>
+            <option value="MG">Minas Gerais</option>
+            </optgroup>
+            <optgroup label="Região Sul">
+            <option value="PR">Paraná</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="RS">Rio Grande do Sul</option>
+        </optgroup>
+        </select></p>
+        <p><label for="cCid">Cidade:</label></p>
+        <input type="text" name="tCid" id="cCid" maxlength="40" size="20" placeholder="Sua Cidade" list="cidades">
+        <datalist id="cidades">
+            <option value="Rio de Janeiro"></option>
+            <option value="Nova Iguaçu"></option>
+            <option value="Niterói"></option>
+            <option value="Belford Roxo"></option>
+        </datalist>
+            </fieldset>
+        <fieldset id="Mensangem"><legend>Mensagem do Usuário</legend>
+        <p><label for="cUrg">Grau de Urgência:</label>
+        Min<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="2">Máx</p>
+        <p><label for="cMsg">Mensagem:</label>
+        <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixe aqui sua mensangem"></textarea></p>
+    </fieldset>
+<fieldset id="pedido"><legend>Quero um Google Glass</legend>
+    <p><input type="checkbox" name="tPed" id="cPed" checked><label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label></p>
+<p><label for="cCor">Cor:</label>
+    <input type="text" name="tCor" id="cCor" maxlength="20" size="20" placeholder="Branco, Azul, Verde.." list="Cores">
+    <datalist id="Cores">
+        <option value="Preto"></option>
+        <option value="Branco"></option>
+        <option value="Verde"></option>
+        <option value="Vermelho"></option>
+        <option value="Azul"></option></p>
+<p><label for="cQtd">Quantidade:</label>
+    <input type="number" name="tQtd" id="cQtd" min="0" max="999999"></p>
+<p><label for="cTot">Preço Total: R$</label></p>
+</fieldset>
+<button class="glow-on-hover" type="button">Enviar</button>
+        </form>
+    </article>
+</section>
+</div>
+<footer id="rodape">
+    <p>Copyright 2022 - by PABLO<br>
+        <a href="https://www.facebook.com/profile.php?id=100016725942027" target="_blank" > Facebook </a>| <a href="https://twitter.com/PabloKennediy" target="_blank" > Twitter </a></p>
+</footer>
+</body>
+</html>

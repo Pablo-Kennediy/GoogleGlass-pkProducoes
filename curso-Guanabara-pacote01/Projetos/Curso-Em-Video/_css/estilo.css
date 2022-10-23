@@ -1,0 +1,215 @@
+@charset "UTF-8"; 
+/*O corpo da estutura*/
+body  {
+    background-color: rgb(129, 128, 128);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+a{
+    color: #606060;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+div#linkTecnologia span h4{
+    display: block;
+    list-style: none;
+    left: 100px;
+}
+/*A divisão front-end*/
+div#interface {
+    width: 1400px;
+    margin: 1px auto 0px auto;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255);
+    box-shadow: 0px 0px 10px #aa9c9c ;
+}
+/*menu no topo direito*/
+.flex-container {       
+    animation: 2s;
+    list-style: none;
+}
+/*as palavras dentro do menu*/
+nav#menu {
+    display: block;
+}
+nav#menu h1{
+display: none;
+}
+nav#menu ul{
+   list-style: none; 
+   text-transform: uppercase;
+   position: absolute;
+   list-style: none;
+   top: -20px;
+   left: 700px;
+}
+nav#menu li {
+    display: inline-block;
+    background-color: rgb(207, 196, 196);
+    padding: 2px;
+    margin: 2px;
+}
+/*faz a animação no texto dentro do menu*/
+a:hover{
+    background-color: rgb(16, 19, 16);
+    transition: background-color 1s;
+    text-decoration: none;
+    color: antiquewhite;
+}
+/*Cabeçalho!!!*/
+header#cabecalho {
+    border-radius: 25px;
+    height: 250px;
+    background: url("../_imagens/PapelDeParedeCabecalho.jpg") no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 10px;
+}
+header#cabecalho img#icone-oculos{
+    display: block;
+    position: relative;
+    left: 1000px;
+    background: url("../_imagens/glass-oculos-preto-peq.png") no-repeat 10px 200px;
+}
+/*Aquele titulo "Google Glass"*/
+header#cabecalho h1{
+    display: block;
+    font-family: Courier, monospace;
+    font-size: 60pt;
+    color:  #606060;
+    text-shadow: 2px 2px 2px rgb(248, 211, 0);
+    text-align: center;
+    padding: 0px;
+    margin: 1px;
+}
+/*Aquele trecho "A revolução do Google está chegando..."*/
+header#cabecalho h2{
+    display: block;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 40pt;
+    color:  #888600da;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    margin: 1px;
+}
+/*Aquele trecho "by - Pablo Kennediy..."*/
+header#cabecalho h3{
+    display: block;
+    font-size: 10px;
+    display: inline-block;
+    list-style: none;
+    padding: 1px;
+    background-color: #cecece;
+    border: #f52222 dashed 1px;
+    margin: 1px;
+}
+/*O Article começa aqui!*/
+article#cabecalho-noticia-principal{
+    background-color: rgb(182, 182, 182);
+    border-radius: 10px;
+    width: 570px;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+}
+article#header-noticia-principal h3{    
+    margin: 1px;
+}
+figure#glass-quadro-homem-mulher{
+    border-radius: 10px;
+}
+/*Inicio Section*/
+/*LINKS no começo*/
+section#linksTecnologiaInformação div h2{
+    display: block;
+    list-style: none;
+    contain: none;
+}
+iframe{
+    width: 670px;
+}
+/*Section é a parte esquerda da interface*/
+section#corpo {
+    display: block;
+    width: 550px;
+    float: left;
+    border-right: 1px rgb(6, 7, 6) solid;
+    padding-right: 60px;
+}
+/*Imagem de uma mulher e um homem com os oculos*/
+figure.foto-legenda {
+    position: relative;
+    border: 2px solid white;
+    box-shadow: 1px 1px 4px black;
+    width: 100%;
+    height: 100%;
+}
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+figure.foto-legenda:hover figcaption{
+    opacity: 1;
+}
+/*Tabela*/
+table#tabelaspec td {
+    border:  1px solid #606060;
+    padding: 10px;
+    text-align: right;
+    vertical-align: text-bottom;
+}
+table#tabelaspec td.ce{
+color: #ffffff;
+background-color: #606060;
+vertical-align: top;
+font-weight: bold;
+}
+table#tabelaspec td.cd{
+background-color: #cecece;
+}
+table#tabelaspec caption{
+    color: #888888;
+    font-size:  13pt;
+    font-weight: bolder;
+}
+table#tabelaspec caption span{
+    display: block;
+    float:  right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+/*Aside é a parte direita da interface*/
+aside#lateral {
+    display: block;
+    width: 670px;
+    float: right;
+    padding-left: 10px;
+    background-color: rgb(182, 182, 182);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+/*Footer é o Rodapé*/
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+    font-family: cursive;
+}
+footer#rodape p {
+    text-align: center;
+}
