@@ -1,4 +1,9 @@
-# GoogleGlass-pkProducoes
+# GoogleGlass 
+
+  PK PRODUÇÕES
+  
+ ![glass-oculos-preto-peq](https://user-images.githubusercontent.com/98966014/201922789-633b8401-9e6d-471a-9e82-4c6a6adf8219.png)
+
 Esta é a minha versão da Landing page que faz anuncio ao Oculos com realidade aumentada.
 O GoogleGlass foi feito pela empresa super famosa Google !
    
