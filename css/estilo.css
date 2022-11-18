@@ -71,7 +71,7 @@ header#cabecalho img#icone-oculos{
     display: block;
     position: relative;
     left: 1000px;
-    background: url("../_imagens/glass-oculos-preto-peq.png") no-repeat 10px 200px;
+    background: url("/imagens/glass-oculos-preto-peq.png") no-repeat 10px 200px;
 }
 /*Aquele titulo "Google Glass"*/
 header#cabecalho h1{
