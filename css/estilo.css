@@ -62,7 +62,11 @@ a:hover{
 }
 /*Cabeçalho!!!*/
 header#cabecalho {
+    display: block;
+    margin: 10px;
     border-radius: 25px;
+    max-width: 100%;
+    width: 1000px;
     height: 250px;
     background: url(../imagens/PapelDeParedeCabecalho.jpg) no-repeat;
     background-size: cover;
