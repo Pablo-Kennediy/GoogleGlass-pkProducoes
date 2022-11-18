@@ -5,6 +5,16 @@ body  {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
 }
+/*A divisão front-end*/
+div#interface {
+    width: 100%;
+    max-width: 1300px;
+    margin: 10px 50px 10px 50px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255);
+    box-shadow: 0px 0px 10px #aa9c9c ;
+}
 a{
     color: #606060;
     text-decoration: none;
@@ -16,15 +26,6 @@ div#linkTecnologia span h4{
     display: block;
     list-style: none;
     left: 100px;
-}
-/*A divisão front-end*/
-div#interface {
-    width: 1400px;
-    margin: 1px auto 0px auto;
-    padding: 10px;
-    border-radius: 50px;
-    background-color: rgba(255, 255, 255);
-    box-shadow: 0px 0px 10px #aa9c9c ;
 }
 /*menu no topo direito*/
 .flex-container {       
@@ -108,7 +109,8 @@ header#cabecalho h3{
 article#cabecalho-noticia-principal{
     background-color: rgb(182, 182, 182);
     border-radius: 10px;
-    width: 570px;
+    width: 100%;
+    max-width: 570px;
     text-align: justify;
     padding: 10px;
     margin: 10px;
@@ -127,15 +129,15 @@ section#linksTecnologiaInformação div h2{
     contain: none;
 }
 iframe{
-    width: 670px;
+    width: 100%;
+    max-width: 670px;
 }
 /*Section é a parte esquerda da interface*/
 section#corpo {
     display: block;
-    width: 550px;
+    width: 100%;
+    max-width: 550px;
     float: left;
-    border-right: 1px rgb(6, 7, 6) solid;
-    padding-right: 60px;
 }
 /*Imagem de uma mulher e um homem com os oculos*/
 figure.foto-legenda {
@@ -195,13 +197,13 @@ table#tabelaspec caption span{
 /*Aside é a parte direita da interface*/
 aside#lateral {
     display: block;
-    width: 670px;
+    width: 100%;
+    max-width: 670px;
     float: right;
     padding-left: 10px;
     background-color: rgb(182, 182, 182);
     border-radius: 8px;
-    margin: 10px;
-    padding: 10px;
+    margin-top: 20px;
     text-align: justify;
 }
 /*Footer é o Rodapé*/
