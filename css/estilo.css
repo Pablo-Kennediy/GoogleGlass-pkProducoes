@@ -63,7 +63,7 @@ a:hover{
 header#cabecalho {
     border-radius: 25px;
     height: 250px;
-    background: url("../imagens/PapelDeParedeCabecalho.jpg") no-repeat;
+    background: url(../imagens/PapelDeParedeCabecalho.jpg) no-repeat;
     background-size: cover;
     box-shadow: 0px 0px 10px;
 }
