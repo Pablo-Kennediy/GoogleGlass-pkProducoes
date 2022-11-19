@@ -4,6 +4,7 @@ body  {
     background-color: rgb(129, 128, 128);
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
+    padding: 100px;
 }
 /*A divisão front-end*/
 div#interface {
