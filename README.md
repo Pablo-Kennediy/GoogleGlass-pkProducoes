@@ -7,7 +7,7 @@ O GoogleGlass foi feito pela empresa super famosa Google !
 
 Vou deixar listada logo abaixo link auto esplicativos e ficaria muito feliz se você desse uma atençãozinha..
 
-* Eu usei o site oficial do **GLASS ENTERPRISE** como base para validar as informações. [GoogleGlass](https://www.google.com/glass/tech-specs/) que eu mando vc para lá.
+* Eu usei o site oficial do **GLASS ENTERPRISE** como base para validar as informações. [GoogleGlass](https://www.google.com/glass/tech-specs/).
 
 * Eu gostei da esplicação do midiatismo também então fui lá e tirei a parte que eu mais gostei. Se você quiser acessar o arquivo inteiro aqui está o  link para lá ([midiatismo](https://www.midiatismo.com.br/vamos-falar-sobre-o-google-glass)).
 
