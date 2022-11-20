@@ -22,3 +22,6 @@ De fato o Google Glass é uma ferramenta única e inovadora, trazendo uma forma 
 
 * Vou deixar uma fonte que vai ajudar você caso tenha gostado do projeto e deseje fazer o mesmo curso que eu fiz no caso foi o do **Guanabara** sobre HTML5 e aprender em uma fonte confiável, LOGICO que nem tudo vai está nesta plataforma mas é basicamento aquilo ali mesmo.
 [CursoEmVideo](https://www.cursoemvideo.com/curso/html5/).
+
+![Assinatura](https://user-images.githubusercontent.com/98966014/202895623-10e47c34-a8cb-4204-84ff-da275d64760d.png)
+
