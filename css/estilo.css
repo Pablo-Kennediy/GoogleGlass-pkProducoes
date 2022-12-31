@@ -8,6 +8,7 @@ body  {
 }
 /*A divisão front-end*/
 div#interface {
+    display: block;
     width: 100%;
     margin: auto;
     padding: 10px;
@@ -59,7 +60,6 @@ a:hover{
 }
 /*Cabeçalho!!!*/
 header#cabecalho {
-    display: block;
     margin: 10px;
     border-radius: 25px;
     width: 100%;
@@ -118,9 +118,6 @@ article#cabecalho-noticia-principal{
 article#header-noticia-principal h3{    
     margin: 1px;
 }
-figure#glass-quadro-homem-mulher{
-    border-radius: 10px;
-}
 /*Inicio Section*/
 /*LINKS no começo*/
 section#linksTecnologiaInformação div h2{
@@ -128,13 +125,8 @@ section#linksTecnologiaInformação div h2{
     list-style: none;
     contain: none;
 }
-iframe{
-    width: 100%;
-    max-width: 670px;
-}
 /*Section é a parte esquerda da interface*/
 section#corpo {
-    display: block;
     width: 45%;
     float: left;
     margin: auto;
@@ -142,7 +134,6 @@ section#corpo {
 }
 /*Aside é a parte direita da interface*/
 aside#lateral {
-    display: block;
     width: 45%;
     float: right;
     margin: auto;
@@ -150,6 +141,9 @@ aside#lateral {
     background-color: rgb(182, 182, 182);
     border-radius: 8px;
     text-align: justify;
+}
+figure#glass-quadro-homem-mulher{
+    border-radius: 10px;
 }
 figure.foto-legenda-logo-oculo{
     float: right;

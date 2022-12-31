@@ -1,11 +1,42 @@
-@charset "UTF-8=";
+@charset "UTF-8";
+.glass-esquema-marcado{
+    width: 45px;
+}
+div#corpo-specs{
+    display: block;
+}
+div.second-division{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+div.corpo-section{
+    width: 45%;
+}
+div.lateral-specs{
+    width: 45%;
+}
+section{
+    width: 45%;
+}
+aside{
+    white: 45%;
+    height: 100%;
+}
+.lateral-specs{
+    width: 45%;
+    height: 300px;
+}
 iframe#frame-spec{
     width: 100%;
-    max-width: 850px;
-    height: 300px;
+    height: 100%;
     border: none;
     overflow: hidden;
 }
 iframe#frame-spec::-webkit-scrollbar{
     display: none;
+}
+figure.glass-esquema-marcado{
+    width: 300;
 }

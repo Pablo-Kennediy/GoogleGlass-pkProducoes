@@ -1,5 +1,6 @@
+<!-- Infelismente eu ainda não sei uma boa formar de transformar toda a estrutura para Mobile poís lá na logica de Clique funcionar de forma correta no computador. Ainda estou em evolução obrigado pela atenção <3 -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,30 +33,34 @@
             <li><a href="multimidia.html" class="flex-item">Multimídia</a></li>
             <li><a href="fale-conosco.html" class="flex-item">Fale conosco</a></li>  </ul>   
             </nav>
-        </header>
-<section id="corpo-full">
-        <article id="noticia-principal">
-        <header id="cabecalho-artigo">
-        </header>
-    </article>
-</section>
-    <aside>
-   <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass.<br>
-Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+    </header>
+    <hgroup>
+        <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass.<br>Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+    </hgroup>
+<div class="corpo-specs">
+<div class="second-division">
+<li class="corpo-section">
 <section>
-    <img src="./imagens/glass-esquema-marcado.jpg" usemap="#meumapa">
+    <img src="./imagens/glass-esquema-marcado.jpg" usemap="#meumapa" id="glass-esquema-marcado">
     <map name="meumapa">
         <area shape="rect" coords="179, 202, 270, 260" href="google-glass.html#tela" target="janela">
         <area shape="circle" coords="158, 243, 12" href="google-glass.html#camera" target="janela">
         <area shape="circle" coords="73, 52, 12" href="google-glass.html#gadgets" target="janela">
         <area shape="poly" coords="28, 143, 83, 216, 84, 249, 27, 169" href="google-glass.html#sensores" target="janela">
     </map>
-    <iframe src="google-glass.html" name="janela" id="frame-spec"></iframe>
 </section>
+</li>
+<li class="lateral-specs">
+    <aside>
+            <iframe src="google-glass.html" name="janela" id="frame-spec" width="1000"></iframe>
     </aside>
-</div><footer id="rodape">
+</li>
+</div>
+</div>
+</div>
+<footer id="rodape">
     <p>Copyright 2022 - by PABLO<br>
         <a href="https://www.facebook.com/profile.php?id=100016725942027" target="_blank" > Facebook </a>| <a href="https://twitter.com/PabloKennediy" target="_blank" > Twitter </a></p>
-</footer></div>
+</footer>
 </body>
 </html>
